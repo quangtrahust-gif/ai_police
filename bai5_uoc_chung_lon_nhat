@@ -1,0 +1,24 @@
+#bai5_uoc_chung_lon_nhat
+a  = -1
+while a  <= 0:
+    a  = int(input("Nhập số nguyên dương a: "))
+    if a <= 0:
+        print("Số phải > 0, mời nhập lại!")
+print(f"Bạn đã nhập: {a}")
+b  = -1
+while b  <= 0:
+    b  = int(input("Nhập số nguyên dương b: "))
+    if b  <= 0:
+        print("Số phải > 0, mời nhập lại!")
+print(f"Bạn đã nhập: {b}")
+# Lưu lại giá trị gốc để in kết quả đẹp
+a_goc = a
+b_goc = b
+
+# Thuật toán Euclid
+while b != 0:
+    r = a % b
+    a = b
+    b = r
+ucln = a
+print(f"UCLN của {a_goc} và {b_goc} là {ucln}")
