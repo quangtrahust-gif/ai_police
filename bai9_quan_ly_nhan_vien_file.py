@@ -85,10 +85,9 @@ while True:
     print("2. Hiển thị danh sách")
     print("3. Tìm nhân viên")
     print("4. Tổng lương theo phòng")
-    
+    print("5. Xóa nhân viên")
     print("6. Thoát")
     chon = input("Chọn: ")
-
     if chon == "1":
         nv = nhap_nhan_vien(danh_sach_nhan_vien)
         danh_sach_nhan_vien.append(nv)
@@ -110,4 +109,3 @@ while True:
     else:
         print("Lựa chọn không hợp lệ. Vui lòng chọn 1-6.")
 
-      

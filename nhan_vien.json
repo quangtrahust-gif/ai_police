@@ -1,0 +1,14 @@
+[
+    {
+        "ma_nv": "NV001",
+        "ho_ten": "Lê Văn An",
+        "phong_ban": "Kỹ thuật",
+        "luong": 15000000
+    },
+    {
+        "ma_nv": "NV002",
+        "ho_ten": "Trần Thị Bình",
+        "phong_ban": "Kinh doanh",
+        "luong": 12000000
+    }
+]
