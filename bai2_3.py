@@ -1,3 +1,4 @@
+44
 # bai2_3.py
 tuoi = int(input("Nhập tuổi của bạn: "))
 la_nguoi_lon = tuoi >= 18

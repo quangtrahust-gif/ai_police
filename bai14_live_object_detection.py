@@ -19,7 +19,7 @@ def process_frame(frame):
     return frame
 
 # Mở camera (thử với index 0, 1, 2,...)
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Không thể mở camera. Thoát.")

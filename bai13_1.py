@@ -1,7 +1,7 @@
 import cv2
 
 # Mở camera MYNT EYE (index 2)
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Không thể mở camera MYNT EYE. Kiểm tra kết nối.")
