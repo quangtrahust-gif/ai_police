@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Dataset và model
+custom_dataset.zip
+*.pt
+*.onnx
+*.engine
+runs/
+yolo_dataset/
+make_sense_dataset/
+
+# Các file tạm
+*.log
+*.cache
+labelImg.ini
